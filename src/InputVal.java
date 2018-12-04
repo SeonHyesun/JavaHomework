@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 
 public class InputVal {
 	public static int getInt() {
-		String input = JOptionPane.showInputDialog("당신의 나이를 입력하세요 ");
+		String input = JOptionPane.showInputDialog("입력");
 		int result = Integer.parseInt(input);
 		return result;
 	}
