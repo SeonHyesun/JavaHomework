@@ -6,15 +6,13 @@ public class Homework1712_2 {
 		int a=InputVal.getInt();
 		int i=a-1;
 		int j=2;
-		
-		for(j=2;j<=i;j++) {
-			if(a%j){
-				System.out.print();
-			}
-	
-			
-			}
-		
+
+		while(j<=i) {
+			if(a%j==0){
+				System.out.print("소수입니다.");
+			}else
+				System.out.println("소수가 아닙니다.");
+
 		}
-		
 	}
+}
