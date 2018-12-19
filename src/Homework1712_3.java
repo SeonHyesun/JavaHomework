@@ -6,17 +6,15 @@ public class Homework1712_3 {
 		int a=1;
 		int b=1;
 		int c=2;
-		int cnt=2;
-		int hap=4;
+		int cnt=1;
+		int hap=0;
 
-		for(;cnt<20;cnt++) {
-			b=a;
-			b=c;
+		for(;cnt>20;cnt++) {
+			
 			c=a+b;
 			hap=+c;
 		}
 		System.out.println(hap);
-
 
 	}
 
